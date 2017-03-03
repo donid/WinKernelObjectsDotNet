@@ -2,3 +2,6 @@ version: 0.1.{build}
 build:
   project: src\WinKernelObjectsDotNet\WinKernelObjectsDotNet.csproj
   verbosity: minimal
+artifacts:
+- path: src\WinKernelObjectsDotNet\bin\Debug\
+  name: bin_Debug
