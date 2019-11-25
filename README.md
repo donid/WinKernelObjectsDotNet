@@ -39,3 +39,5 @@ Additionally I have created a GUI that allows to display all handles of the runn
  The library and GUI has been tested with Windows 10 64bit with and without the 'Prefer 32bit' flag activated.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/u8ye2koa2fk3surt?svg=true)](https://ci.appveyor.com/project/donid/winkernelobjectsdotnet)
+
+![](https://github.com/donid/WinKernelObjectsDotNet/workflows/CI/badge.svg)
