@@ -16,8 +16,12 @@ jobs:
     - name: MSBuild
       working-directory: src
       run: msbuild WinKernelObjectsDotNet\WinKernelObjectsDotNet.csproj
-      
+    - name: Upload artifact
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: upload debug-build artifacts
+        path: src\WinKernelObjectsDotNet\bin\Debug\
     - name: Run a multi-line script
       run: |
-        echo komplett fettisch
+        echo "komplett fettisch"
         echo das ende
