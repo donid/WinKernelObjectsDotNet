@@ -15,7 +15,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
     - name: restore nugets
       working-directory: src
-      run: msbuild -t:restore;Compile WinKernelObjectsDotNet\WinKernelObjectsDotNet.csproj
+      run: msbuild -t:restore WinKernelObjectsDotNet\WinKernelObjectsDotNet.csproj
     - name: build project
       working-directory: src
       run: msbuild WinKernelObjectsDotNet\WinKernelObjectsDotNet.csproj
